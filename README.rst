@@ -36,7 +36,7 @@ This verison use NeoBundle that can get the newest vim script use eazy way.
 
 #. Git
 #. Network
-#. make (Unix Link Only)
+#. make (Unix Like Only)
 #. Vim
 #. Curl
 
