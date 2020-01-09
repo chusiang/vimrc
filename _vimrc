@@ -17,8 +17,8 @@ if has('mac')
     set pythonthreehome=/usr/local/Frameworks/Python.framework/Versions/3.7
   else
     command! -nargs=1 Py py <args>
-    set pythondll=/usr/local/Frameworks/Python.framework/Versions/2.7/Python
-    set pythonhome=/usr/local/Frameworks/Python.framework/Versions/2.7
+    set pythondll=/usr/local/Frameworks/Python.framework/Versions/Current/Python
+    set pythonhome=/usr/local/Frameworks/Python.framework/Versions/Current
   endif
 endif
 
