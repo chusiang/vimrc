@@ -308,6 +308,17 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 .. _wmgraphviz.vim: https://github.com/wannesm/wmgraphviz.vim
 .. _xterm-color-table.vim: https://github.com/guns/xterm-color-table.vim
 
+5.7. Game
+----------------------------------------
+
+#. [ ] `killersheep`_ - Silly game for Vim 8.2.
+#. [ ] `VimGameCodeBreak`_ - Block-breaking game in vim 8.0.
+#. [ ] `VimGameSnake`_ - The Vim Game of Snake.
+
+.. _killersheep: https://github.com/vim/killersheep
+.. _VimGameCodeBreak: https://github.com/johngrib/vim-game-code-break
+.. _VimGameSnake: https://github.com/johngrib/vim-game-snake
+
 6. File Structure
 ========================================
 
