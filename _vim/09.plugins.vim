@@ -2,7 +2,7 @@
 "  Author: Chu-Siang Lai / chusiang (at) drx.tw
 "  Blog: http://note.drx.tw
 "  Filename: plugin-list.vim
-"  Modified: 2018-03-18 15:10
+"  Modified: 2020-03-09 16:26
 "  Description: plugins list of chusiang.
 "  Reference: https://github.com/chusiang/vimrc/blob/master/_vim/plugin-list.vim
 " =============================================================================
@@ -131,8 +131,8 @@ endif
 " pearofducks/ansible-vim
 " -----------------------
 
-au BufRead,BufNewFile */*ansible/*.yml   set filetype=yaml.ansible
-au BufRead,BufNewFile */*playbooks/*.yml set filetype=yaml.ansible
+autocmd BufRead,BufNewFile */*ansible/*.yml   set filetype=yaml.ansible
+autocmd BufRead,BufNewFile */*playbooks/*.yml set filetype=yaml.ansible
 
 
 " plasticboy/vim-markdown
@@ -221,12 +221,12 @@ let g:vimwiki_list = [
   \   'path': '~/vimwiki/',
   \   'index': 'index',
   \   'path_html': '~/vimwiki/public_html/',
-  \   'syntax': 'markdown', 'ext': '.md'
+  \   'syntax': 'markdown', 'ext': '.wiki'
   \ },
   \ {
   \   'path': '~/vimwiki/diary/',
   \   'syntax': 'markdown',
-  \   'ext': '.md'
+  \   'ext': '.wiki'
   \ }]
 
 " custom header color.
@@ -247,8 +247,10 @@ autocmd BufRead,BufNewFile *.md noremap	<leader>wk  :VimwikiDiaryPrevDay <CR>
 autocmd BufRead,BufNewFile *.md noremap	<leader>wo  <C-Space> <CR>
 
 " syntax.
-au BufRead,BufNewFile */vimwiki/wiki/*.yml  set filetype=markdown
-au BufRead,BufNewFile */vimwiki/diary/*.yml set filetype=markdown
+autocmd BufRead,BufNewFile */vimwiki/wiki/*.md    set filetype=markdown
+autocmd BufRead,BufNewFile */vimwiki/diary/*.md   set filetype=markdown
+autocmd BufRead,BufNewFile */vimwiki/wiki/*.wiki  set filetype=markdown
+autocmd BufRead,BufNewFile */vimwiki/diary/*.wiki set filetype=markdown
 
 
 " Syntastic
