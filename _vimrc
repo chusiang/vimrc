@@ -96,8 +96,8 @@ if dein#load_state('$HOME/.vim/bundle')
   call dein#add('vim-scripts/calendar.vim--Matsumoto')
   call dein#add('vim-scripts/matchit.zip')
   call dein#add('vim-scripts/mru.vim')
-  call dein#add('vim-scripts/vimwiki')
   call dein#add('vim-syntastic/syntastic')
+  call dein#add('vimwiki/vimwiki')
 
   " Required:
   call dein#end()
