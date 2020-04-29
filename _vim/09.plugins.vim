@@ -224,7 +224,7 @@ let g:vimwiki_list = [
   \   'syntax': 'markdown', 'ext': '.wiki'
   \ },
   \ {
-  \   'path': '~/vimwiki/diary/',
+  \   'path': '~/vimwiki/',
   \   'syntax': 'markdown',
   \   'ext': '.wiki'
   \ }]
