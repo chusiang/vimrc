@@ -314,10 +314,12 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 #. [ ] `killersheep`_ - Silly game for Vim 8.2.
 #. [ ] `VimGameCodeBreak`_ - Block-breaking game in vim 8.0.
 #. [ ] `VimGameSnake`_ - The Vim Game of Snake.
+#. [ ] `vim-mario`_ - Mario on Vim.
 
 .. _killersheep: https://github.com/vim/killersheep
 .. _VimGameCodeBreak: https://github.com/johngrib/vim-game-code-break
 .. _VimGameSnake: https://github.com/johngrib/vim-game-snake
+.. _vim-mario: https://github.com/rbtnn/vim-mario
 
 6. File Structure
 ========================================
