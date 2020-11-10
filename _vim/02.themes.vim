@@ -44,27 +44,27 @@ set relativenumber	"number of relative.
 " ----
 
 if has('win32')
-	set guifont=Consolas:h14
+  set guifont=Consolas:h14
 elseif has('gui_macvim')
   set guifont=Monaco:h14
 else
-	set guifont=Monospace\ 14
+  set guifont=Monospace\ 14
 endif
 
 " GUI
 " ---
 
 if has('gui')
-	set t_Co=256		  " support 256 color.
+  set t_Co=256		  " support 256 color.
 
-	set guioptions-=m	" remove Menu.
-	set guioptions-=e	" remove Tab-Page.
-	set guioptions-=T	" remove Toolbar.
-	set guioptions-=b	" remove Scroll (Below).
-	set guioptions-=l " remove Scroll (Left of Split window).
-	set guioptions-=L " remove Scroll (Left).
-	set guioptions-=r " remove Scroll (Right of Split window).
-	set guioptions-=R " remove Scroll (Right).
+  set guioptions-=m	" remove Menu.
+  set guioptions-=e	" remove Tab-Page.
+  set guioptions-=T	" remove Toolbar.
+  set guioptions-=b	" remove Scroll (Below).
+  set guioptions-=l " remove Scroll (Left of Split window).
+  set guioptions-=L " remove Scroll (Left).
+  set guioptions-=r " remove Scroll (Right of Split window).
+  set guioptions-=R " remove Scroll (Right).
 
   " disable the Chinese IM when I leaving the insert mode.
   autocmd InsertEnter * set noimdisable
@@ -154,14 +154,14 @@ endfunction
 set columns=80
 
 if exists('+colorcolumn')
-	hi ColorColumn ctermbg=232 guibg=#2d2d2d guifg=white
+  hi ColorColumn ctermbg=232 guibg=#2d2d2d guifg=white
   "set colorcolumn=80
-	"let &colorcolumn="80,".join(range(120,999),",")
+  "let &colorcolumn="80,".join(range(120,999),",")
 else
-	au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
 
 function! HightLightOverLength()
-	hi OverLength	ctermfg=white	ctermbg=darkred	guifg=white    guibg=#cc0000
+  hi OverLength	ctermfg=white	ctermbg=darkred	guifg=white    guibg=#cc0000
     match OverLength /\%>80v.\+/
 endfunction
