@@ -20,7 +20,7 @@ colorscheme Tomorrow-Night-Eighties
 " ------
 
 set cursorline		  "highlight line.
-set cursorcolumn	  "highlight colimn.
+set cursorcolumn	  "highlight column.
 
 set nocompatible	  "do not backward compatible.
 
