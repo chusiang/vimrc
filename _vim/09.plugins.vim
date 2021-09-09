@@ -84,10 +84,10 @@ let g:ctrlp_custom_ignore = {
   \}
 let g:ctrlp_user_command = {
   \ 'types': {
-	\   1: ['.git', 'cd %s && git ls-files -c -o'],
+  \   1: ['.git', 'cd %s && git ls-files -c -o'],
   \   2: ['.hg', 'hg --cwd %s locate -I .'],
-	\ },
-	\ 'fallback': 'find %s -type f'
+  \ },
+  \ 'fallback': 'find %s -type f'
   \}
 
 " integration the Buffer and MRU.
@@ -221,12 +221,12 @@ let g:vimwiki_list = [
   \   'path': '~/vimwiki/',
   \   'index': 'index',
   \   'path_html': '~/vimwiki/public_html/',
-  \   'syntax': 'markdown', 'ext': '.md'
+  \   'syntax': 'markdown', 'ext': '.wiki'
   \ },
   \ {
   \   'path': '~/vimwiki/diary/',
   \   'syntax': 'markdown',
-  \   'ext': '.md'
+  \   'ext': '.wiki'
   \ }]
 
 " custom header color.
