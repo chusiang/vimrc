@@ -192,7 +192,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_my"]
 " -----------------------
 
 set laststatus=2
-let g:airline_theme = "tomorrow"
+let g:airline_theme = "base16_tomorrow_night_eighties"
 
 if has('gui')
   let g:airline_powerline_fonts = 0
