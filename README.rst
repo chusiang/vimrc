@@ -3,7 +3,7 @@
    Author: Chu-Siang Lai / chusiang (at) drx.tw
    Blog: http://note.drx.tw
    Filename: README.rst
-   Modified: 2019-07-25 00:22
+   Modified: 2021-11-23 15:28
    Reference: https://github.com/chusiang/vimrc/blob/master/README.rst
   =============================================================================
 
@@ -259,18 +259,21 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 
 #. [ ] `Amy.vim`_ - A colorscheme based on 'amy' sublime text 2 color theme.
 #. [ ] `Apprentice`_ - A dark, low-contrast, Vim colorscheme.
-#. [X] `Tomorrow Theme`_ - The precursor to Base16 Theme.
-#. [X] `jellybeans.vim`_ - A colorful, dark color scheme for vim.
+#. [ ] `Tomorrow Theme`_ - The precursor to Base16 Theme. (Tomorrow Theme now lives on at `base16`_)
+#. [X] `base16-vim`_ - Base16 Theme for Vim.
+#. [ ] `jellybeans.vim`_ - A colorful, dark color scheme for vim.
 #. [X] `vim-airline`_ - Lean & mean status/tabline for vim that's light as air.
 #. [X] `vim-airline-themes`_ - A collection of themes for vim-airline.
 #. [ ] `vim-colorscheme-primary`_ - Primary, a Vim color scheme based on Google's colors.
 #. [ ] `vim-colorschemes`_ - one stop shop for vim colorschemes.
 #. [ ] `vim-powerline`_ - better-looking, more functional vim statuslines.
-#. [X] `vim-tomorrow-night`_ - Tomorrow Theme mirror.
+#. [ ] `vim-tomorrow-night`_ - Tomorrow Theme mirror.
 
 .. _Amy.vim: https://github.com/awinecki/amy-vim-coloscheme
 .. _Apprentice: https://github.com/romainl/Apprentice
 .. _Tomorrow Theme: https://github.com/chriskempson/tomorrow-theme
+.. _base16: https://github.com/chriskempson/base16
+.. _base16-vim: https://github.com/chriskempson/base16-vim
 .. _jellybeans.vim: https://github.com/nanotech/jellybeans.vim
 .. _vim-airline-themes: https://github.com/vim-airline/vim-airline-themes
 .. _vim-airline: https://github.com/bling/vim-airline

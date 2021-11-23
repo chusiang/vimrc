@@ -2,7 +2,7 @@
 "  Author: chusiang / chusiang.lai (at) gmail.com
 "  Blog: http://note.drx.tw
 "  Filename: 02.themes.vim
-"  Modified: 2018-3-18 22:16
+"  Modified: 2021-11-23 15:26
 "  Description: Custon the themes like Cursor, GUI and title.
 "  Reference: https://github.com/chusiang/vimrc/blob/master/_vim/02.themes.vim
 " =============================================================================
@@ -10,18 +10,21 @@
 " Color Scheme
 " -------------
 
-colorscheme Tomorrow-Night-Eighties
-"colorscheme Tomorrow
-"colorscheme jellybeans
-"colorscheme fu
-"colorscheme ir_black
+set termguicolors
+let base16colorspace=256
+colorscheme base16-tomorrow-night-eighties
+
+" colorscheme Tomorrow-Night-Eighties
+" colorscheme Tomorrow
+" colorscheme jellybeans
+" colorscheme fu
+" colorscheme ir_black
 
 " Cursor
 " ------
 
 set cursorline		  "highlight line.
 set cursorcolumn	  "highlight column.
-
 set nocompatible	  "do not backward compatible.
 
 " Line Number
