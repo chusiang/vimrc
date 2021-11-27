@@ -49,11 +49,11 @@ set ruler	      "Show Row & Colume position
 
 " move swap and backup files from your working directory.
 if has('win32')
-	set backupdir=/cygdrive/e/Cache
-	set directory=/cygdrive/e/Cache
+  set backupdir=/cygdrive/e/Cache
+  set directory=/cygdrive/e/Cache
 else
-	set backupdir=/tmp
-	set directory=/tmp
+  set backupdir=/tmp
+  set directory=/tmp
 endif
 
 " indent
