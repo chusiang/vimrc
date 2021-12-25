@@ -210,6 +210,11 @@ inoremap { {}<LEFT>
 inoremap ' ''<LEFT>
 "inoremap " ""<LEFT>
 
+" Go to File
+" ----------
+
+" Remapping gf with open new tab.
+nnoremap gf <C-W>gF
 
 " HTML
 " ====
