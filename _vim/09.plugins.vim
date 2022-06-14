@@ -229,26 +229,22 @@ let g:vimwiki_list = [
   \   'ext': '.wiki'
   \ }]
 
-" custom header color.
-:hi VimwikiHeader1 guifg=#FF0000	" Red
-:hi VimwikiHeader2 guifg=#FFDB00	" Yellow
-:hi VimwikiHeader3 guifg=#9C9CE0	" Light Purple
-:hi VimwikiHeader4 guifg=#91B9E0	" Light Blue
-:hi VimwikiHeader5 guifg=#999999	" Light Grey
-:hi VimwikiHeader6 guifg=#49D432	" Light Green
-
 " default browser.
 "let g:vimwiki_browsers=['/usr/bin/firefox']
 
-" keymap.
-autocmd BufRead,BufNewFile *.md noremap	<leader>wtb :VimwikiTable <CR>
-autocmd BufRead,BufNewFile *.md noremap	<leader>wj  :VimwikiDiaryNextDay <CR>
-autocmd BufRead,BufNewFile *.md noremap	<leader>wk  :VimwikiDiaryPrevDay <CR>
-autocmd BufRead,BufNewFile *.md noremap	<leader>wo  <C-Space> <CR>
+" Use vimwiki filetype only for vimwiki files.
+"
+" - https://github.com/vimwiki/vimwiki/issues/95#issuecomment-68873394
+let g:vimwiki_global_ext = 0
 
-" syntax.
-au BufRead,BufNewFile */vimwiki/wiki/*.yml  set filetype=markdown
-au BufRead,BufNewFile */vimwiki/diary/*.yml set filetype=markdown
+" keymap.
+autocmd BufRead,BufNewFile *.wiki noremap	<leader>wtb :VimwikiTable <CR>
+autocmd BufRead,BufNewFile *.wiki noremap	<leader>wj  :VimwikiDiaryNextDay <CR>
+autocmd BufRead,BufNewFile *.wiki noremap	<leader>wk  :VimwikiDiaryPrevDay <CR>
+autocmd BufRead,BufNewFile *.wiki noremap	<leader>wo  <C-Space> <CR>
+
+" Syntax.
+autocmd BufNewFile,BufReadPost ~/vimwiki/* set filetype=markdown
 
 
 " Syntastic
