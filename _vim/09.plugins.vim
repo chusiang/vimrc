@@ -221,13 +221,21 @@ let g:vimwiki_list = [
   \   'path': '~/vimwiki/',
   \   'index': 'index',
   \   'path_html': '~/vimwiki/public_html/',
-  \   'syntax': 'markdown', 'ext': '.wiki'
+  \   'syntax': 'markdown',
+  \   'ext': '.wiki'
   \ },
   \ {
   \   'path': '~/vimwiki/diary/',
   \   'syntax': 'markdown',
   \   'ext': '.wiki'
   \ }]
+
+" let g:vimwiki_list = [
+"   \ {
+"   \   'path': '~/Google\ Drive/cs.obsidian/1.Note/',
+"   \   'syntax': 'markdown',
+"   \   'ext': '.md'
+"   \ }]
 
 " default browser.
 "let g:vimwiki_browsers=['/usr/bin/firefox']
