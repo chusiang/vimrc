@@ -296,7 +296,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 #. [ ] `vim-multiple-cursors`_ - use multiple cursors like Sublime Text editor.
 #. [X] `vim-sdcv`_ - Searching word with sdcv at Vim.
 #. [X] `vimcdoc-tw`_ - Vimcdoc of Traditional Chinese.
-#. [X] `vimwiki`_ - Personal Wiki for Vim.
+#. [ ] `vimwiki`_ - Personal Wiki for Vim.
 #. [ ] `wmgraphviz.vim`_ - Vim plugin for Graphviz dot.
 #. [ ] `xterm-color-table.vim`_ - All 256 xterm colors with their RGB equivalents, right in Vim!
 

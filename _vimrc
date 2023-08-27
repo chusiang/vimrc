@@ -39,6 +39,7 @@ if dein#load_state('$HOME/.vim/bundle')
   " call dein#add('vim-scripts/bats.vim')
   " call dein#add('vim-scripts/phpfolding.vim', { 'rev': '3d5149e651' })"
   " call dein#add('vim-scripts/pythoncomplete')
+  " call dein#add('vim-scripts/vimwiki')
   " call dein#add('wannesm/wmgraphviz.vim')
   " call dein#add('xu-cheng/brew.vim')
   call dein#add('Glench/Vim-Jinja2-Syntax')
@@ -80,7 +81,6 @@ if dein#load_state('$HOME/.vim/bundle')
   call dein#add('vim-scripts/calendar.vim--Matsumoto')
   call dein#add('vim-scripts/matchit.zip')
   call dein#add('vim-scripts/mru.vim')
-  call dein#add('vim-scripts/vimwiki')
   call dein#add('vim-syntastic/syntastic')
 
   " Required:

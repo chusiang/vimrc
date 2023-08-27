@@ -216,19 +216,19 @@ let MRU_Max_Entries = 1000
 " vim-scripts/vimwiki
 " -------------------
 
-let g:vimwiki_list = [
-  \ {
-  \   'path': '~/vimwiki/',
-  \   'index': 'index',
-  \   'path_html': '~/vimwiki/public_html/',
-  \   'syntax': 'markdown',
-  \   'ext': '.wiki'
-  \ },
-  \ {
-  \   'path': '~/vimwiki/diary/',
-  \   'syntax': 'markdown',
-  \   'ext': '.wiki'
-  \ }]
+" let g:vimwiki_list = [
+"   \ {
+"   \   'path': '~/vimwiki/',
+"   \   'index': 'index',
+"   \   'path_html': '~/vimwiki/public_html/',
+"   \   'syntax': 'markdown',
+"   \   'ext': '.wiki'
+"   \ },
+"   \ {
+"   \   'path': '~/vimwiki/diary/',
+"   \   'syntax': 'markdown',
+"   \   'ext': '.wiki'
+"   \ }]
 
 " let g:vimwiki_list = [
 "   \ {
@@ -238,21 +238,24 @@ let g:vimwiki_list = [
 "   \ }]
 
 " default browser.
+"
 "let g:vimwiki_browsers=['/usr/bin/firefox']
 
 " Use vimwiki filetype only for vimwiki files.
-"
 " - https://github.com/vimwiki/vimwiki/issues/95#issuecomment-68873394
-let g:vimwiki_global_ext = 0
+"
+" let g:vimwiki_global_ext = 0
 
 " keymap.
-autocmd BufRead,BufNewFile *.wiki noremap	<leader>wtb :VimwikiTable <CR>
-autocmd BufRead,BufNewFile *.wiki noremap	<leader>wj  :VimwikiDiaryNextDay <CR>
-autocmd BufRead,BufNewFile *.wiki noremap	<leader>wk  :VimwikiDiaryPrevDay <CR>
-autocmd BufRead,BufNewFile *.wiki noremap	<leader>wo  <C-Space> <CR>
+"
+" autocmd BufRead,BufNewFile *.wiki noremap	<leader>wtb :VimwikiTable <CR>
+" autocmd BufRead,BufNewFile *.wiki noremap	<leader>wj  :VimwikiDiaryNextDay <CR>
+" autocmd BufRead,BufNewFile *.wiki noremap	<leader>wk  :VimwikiDiaryPrevDay <CR>
+" autocmd BufRead,BufNewFile *.wiki noremap	<leader>wo  <C-Space> <CR>
 
 " Syntax.
-autocmd BufNewFile,BufReadPost ~/vimwiki/* set filetype=markdown
+"
+" autocmd BufNewFile,BufReadPost ~/vimwiki/* set filetype=markdown
 
 
 " Syntastic
