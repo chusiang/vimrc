@@ -2,26 +2,10 @@
 "  Author: Chu-Siang Lai / chusiang (at) drx.tw
 "  Blog: http://note.drx.tw
 "  Filename: _vimrc
-"  Modified: 2018-03-18 22:36
+"  Modified: 2023-08-27 14:40
 "  Description: main vimrc.
 "  Reference: https://github.com/chusiang/vimrc/blob/master/_vimrc
 " =============================================================================
-
-" Support the Python 3
-" --------------------
-
-if has('mac')
-  if has('python3')
-    command! -nargs=1 Py py3 <args>
-    set pythonthreedll=/usr/local/Frameworks/Python.framework/Versions/3.7/Python
-    set pythonthreehome=/usr/local/Frameworks/Python.framework/Versions/3.7
-  else
-    command! -nargs=1 Py py <args>
-    set pythondll=/usr/local/Frameworks/Python.framework/Versions/2.7/Python
-    set pythonhome=/usr/local/Frameworks/Python.framework/Versions/2.7
-  endif
-endif
-
 
 " dein Scripts
 " ------------
