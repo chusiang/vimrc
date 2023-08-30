@@ -174,12 +174,12 @@ vnoremap <space> zf
 " ---------
 
 if has('gui_macvim')
-  nmap <leader>f0	:set guifont=Monaco:h15 <CR>
-  nmap <leader>f`	:set guifont=Monaco:h10 <CR>
-  nmap <leader>f1	:set guifont=Monaco:h12 <CR>
-  nmap <leader>f2	:set guifont=Monaco:h14 <CR>
-  nmap <leader>f3	:set guifont=Monaco:h16 <CR>
-  nmap <leader>f4	:set guifont=Monaco:h20 <CR>
+  nmap <leader>f0	:set guifont=Source\ Code\ Pro\ 14 <CR>
+  nmap <leader>f`	:set guifont=Source\ Code\ Pro\ 10 <CR>
+  nmap <leader>f1	:set guifont=Source\ Code\ Pro\ 12 <CR>
+  nmap <leader>f2	:set guifont=Source\ Code\ Pro\ 14 <CR>
+  nmap <leader>f3	:set guifont=Source\ Code\ Pro\ 16 <CR>
+  nmap <leader>f4	:set guifont=Source\ Code\ Pro\ 20 <CR>
 elseif has('win32')
   nmap <leader>f0	:set guifont=Consolas:h14 <CR>
   nmap <leader>f`	:set guifont=Consolas:h10 <CR>
@@ -188,12 +188,12 @@ elseif has('win32')
   nmap <leader>f3	:set guifont=Consolas:h16 <CR>
   nmap <leader>f4	:set guifont=Consolas:h20 <CR>
 else
-  nmap <leader>f0	:set guifont=Monospace\ 14 <CR>
-  nmap <leader>f`	:set guifont=Monospace\ 10 <CR>
-  nmap <leader>f1	:set guifont=Monospace\ 12 <CR>
-  nmap <leader>f2	:set guifont=Monospace\ 14 <CR>
-  nmap <leader>f3	:set guifont=Monospace\ 16 <CR>
-  nmap <leader>f4	:set guifont=Monospace\ 20 <CR>
+  nmap <leader>f0	:set guifont=Source\ Code\ Pro\ 14 <CR>
+  nmap <leader>f`	:set guifont=Source\ Code\ Pro\ 10 <CR>
+  nmap <leader>f1	:set guifont=Source\ Code\ Pro\ 12 <CR>
+  nmap <leader>f2	:set guifont=Source\ Code\ Pro\ 14 <CR>
+  nmap <leader>f3	:set guifont=Source\ Code\ Pro\ 16 <CR>
+  nmap <leader>f4	:set guifont=Source\ Code\ Pro\ 20 <CR>
 endif
 
 
