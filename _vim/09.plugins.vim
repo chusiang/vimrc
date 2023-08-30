@@ -193,13 +193,11 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_my"]
 
 set laststatus=2
 let g:airline_theme = "base16_tomorrow_night_eighties"
-
-if has('gui')
-  let g:airline_powerline_fonts = 0
-else
-  set guifont = "Source Code Pro:h14"
-  let g:airline_powerline_fonts = 1
-endif
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_alt_sep = '>'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#show_tab_type = 0
+let g:airline_powerline_fonts = 1
 
 " Calendar
 " --------
