@@ -190,7 +190,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 
 #. [ ] `fugitive.vim`_ - a Git wrapper so awesome.
 #. [ ] `gitv`_ - gitv is a 'gitk clone' plugin for the text editor Vim. (need `fugitive.vim`_)
-#. [X] `vim-gitgutter`_ - which shows a git diff in the 'gutter' (sign column). It shows whether each line has been added, modified, and where lines have been removed.
+#. [ ] `vim-gitgutter`_ - which shows a git diff in the 'gutter' (sign column). It shows whether each line has been added, modified, and where lines have been removed.
 
 .. _fugitive.vim: https://github.com/tpope/vim-fugitive
 .. _gitv: https://github.com/gregsexton/gitv
