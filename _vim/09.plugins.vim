@@ -199,11 +199,15 @@ let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#show_tab_type = 0
 let g:airline_powerline_fonts = 1
 
-" Calendar
-" --------
+" mattn/calendar-vim
+" ------------------
 
-nmap <leader>wc :Calendar<CR>
+let g:calendar_diary=$HOME.'/vcs/diary'
+let g:calendar_mark = 'right'
+let g:calendar_weeknm = 1
 
+" Show calendar in a vertical split at the right site.
+nmap <leader>l :CalendarVR<CR>
 
 " mru.vim
 " -------

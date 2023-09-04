@@ -287,7 +287,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 5.6. Other
 ----------------------------------------
 
-#. [X] `calendar.vim`_ - The script of create calender window and don`t use the `cal`.
+#. [X] `calendar-vim`_ - The script of create calender window and don`t use the `cal`.
 #. [ ] `evervim`_ - edit evernote with markdown at vim.
 #. [ ] `gsession.vim`_ - Vim Session Plugin.
 #. [ ] `numbers.vim`_ - a plugin for intelligently toggling line numbers.
@@ -300,7 +300,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 #. [ ] `wmgraphviz.vim`_ - Vim plugin for Graphviz dot.
 #. [ ] `xterm-color-table.vim`_ - All 256 xterm colors with their RGB equivalents, right in Vim!
 
-.. _calendar.vim: https://github.com/vim-scripts/calendar.vim
+.. _calendar-vim: https://github.com/mattn/calendar-vim
 .. _evervim: https://github.com/kakkyz81/evervim
 .. _gsession.vim: https://github.com/c9s/gsession.vim
 .. _numbers.vim: https://github.com/myusuf3/numbers.vim
