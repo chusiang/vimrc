@@ -43,18 +43,6 @@ set relativenumber	"number of relative.
 "set statusline=%y\ %t\%r%h%w\ %m%=\ %{&fileencoding}\ [%{&ff}]\ [AscII=\%03.3b]\ [Hex=\%02.2B]\ [LINE=%L]\ [Pos=%l,%v,%p%%]
 "set statusline=%y\ %t\%r%h%w\ %m%=\ %{&fileencoding}\ [%{&ff}]\ [AscII=\%03.3b]\ [LINE=%L]\ [Pos=%l,%v,%p%%]
 
-" Font
-" ----
-
-if has('win32')
-  set guifont=Consolas:h14
-elseif has('gui_macvim')
-  set guifont=Monaco:h14
-else
-  " set guifont=Monospace\ 14
-  set guifont=Source\ Code\ Pro\ 14
-endif
-
 " GUI
 " ---
 
@@ -69,6 +57,15 @@ if has('gui')
   set guioptions-=L " remove Scroll (Left).
   set guioptions-=r " remove Scroll (Right of Split window).
   set guioptions-=R " remove Scroll (Right).
+
+  " Font.
+  if has('win32')
+    set guifont=Consolas:h14
+  elseif has('gui_macvim')
+    set guifont=Source\ Code\ Pro:h18
+  else
+    set guifont=Source\ Code\ Pro\ 16
+  endif
 
   " disable the Chinese IM when I leaving the insert mode.
   autocmd InsertEnter * set noimdisable
