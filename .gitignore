@@ -2,3 +2,4 @@ tags
 README.html
 dein_installer.sh
 output.*.log
+.DS_Store
