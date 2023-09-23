@@ -156,7 +156,7 @@ let g:vim_markdown_frontmatter = 1
 " -------------------
 
 " Open NERDTree at right window.
-let NERDTreeWinPos=1
+let g:NERDTreeWinPos = "right"
 
 nmap <leader>e :NERDTreeToggle<CR>
 
