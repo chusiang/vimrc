@@ -229,6 +229,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 #. [ ] `vim-css-color`_ - Highlight colors in css files.
 #. [X] `vim-coloresque`_ - css/less/sass/html color preview for vim.
 #. [X] `vim-css3-syntax`_ - Add CSS3 syntax support to Vim's built-in syntax/css.vim.
+#. [X] `vim-haproxy`_ - Syntax highlighting for HAproxy configuration.
 #. [X] `vim-json`_ - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
 #. [X] `vim-markdown`_ - Syntax highlighting and matching rules for Markdown. (need `Tabular`_)
 #. [X] `vim-tmux`_ - vim plugin for tmux.conf.
@@ -250,6 +251,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 .. _vim-css-color: https://github.com/skammer/vim-css-color
 .. _vim-css3-syntax: https://github.com/hail2u/vim-css3-syntax
 .. _vim-json: https://github.com/elzr/vim-json
+.. _vim-haproxy: https://github.com/Joorem/vim-haproxy
 .. _vim-markdown: https://github.com/plasticboy/vim-markdown
 .. _vim-tmux: https://github.com/tmux-plugins/vim-tmux
 .. _yajs.vim: https://github.com/othree/yajs.vim
