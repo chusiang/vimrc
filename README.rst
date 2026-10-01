@@ -291,6 +291,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 
 #. [X] `calendar-vim`_ - The script of create calender window and don`t use the `cal`.
 #. [ ] `evervim`_ - edit evernote with markdown at vim.
+#. [X] `fcitx.vim`_ - keep and restore fcitx state when leaving/re-entering insert mode.
 #. [ ] `gsession.vim`_ - Vim Session Plugin.
 #. [ ] `numbers.vim`_ - a plugin for intelligently toggling line numbers.
 #. [ ] `riv.vim`_ - reStructured Text in Vim.
@@ -304,6 +305,7 @@ Backup directory: `${HOME}/.vim_back-${data}` [#]_
 
 .. _calendar-vim: https://github.com/mattn/calendar-vim
 .. _evervim: https://github.com/kakkyz81/evervim
+.. _fcitx.vim: https://github.com/lilydjwg/fcitx.vim
 .. _gsession.vim: https://github.com/c9s/gsession.vim
 .. _numbers.vim: https://github.com/myusuf3/numbers.vim
 .. _riv.vim: https://github.com/Rykka/riv.vim
